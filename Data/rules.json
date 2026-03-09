@@ -1,0 +1,45 @@
+{
+  "max_single_issuer_pct": 0.12,
+  "max_sector_pct": 0.28,
+  "min_cash_buffer": 500000,
+  "disallowed_ratings": ["CCC", "CC", "C", "D"],
+  "allowed_countries": ["US", "UK", "CA"],
+  "max_trade_par_amount": 1000000,
+  "max_buy_trade_pct_of_portfolio": 0.08,
+  "max_position_par_amount": 3000000,
+  "max_rating_bucket_below_b_pct": 0.05,
+  "restricted_sectors": [],
+  "country_limits": {
+    "US": 0.75,
+    "UK": 0.20,
+    "CA": 0.20
+  },
+  "sector_limits": {
+    "Technology": 0.18,
+    "Energy": 0.15,
+    "Healthcare": 0.18,
+    "Consumer": 0.16,
+    "Communications": 0.17,
+    "Industrials": 0.18,
+    "Financials": 0.20,
+    "Materials": 0.14,
+    "Utilities": 0.14
+  },
+  "rating_limits": {
+    "BBB": 0.50,
+    "BB": 0.60,
+    "B": 0.35
+  },
+  "portfolio_rules": {
+    "LCP_FUND_1": {
+      "min_cash_buffer": 450000,
+      "max_single_issuer_pct": 0.13,
+      "max_sector_pct": 0.30
+    },
+    "LCP_FUND_2": {
+      "min_cash_buffer": 550000,
+      "max_single_issuer_pct": 0.11,
+      "max_sector_pct": 0.27
+    }
+  }
+}
