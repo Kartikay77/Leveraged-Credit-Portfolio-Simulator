@@ -75,3 +75,5 @@ mkdir kkr_portfolio_sim
 cd kkr_portfolio_sim
 mkdir data outputs
 ```
+
+![a](MEDIA/Portfolio_Analyst.png)
